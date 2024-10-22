@@ -1,35 +1,7 @@
 # GestionTarea
 
 Este proyecto es un sistema sencillo de gestión de tareas (CRUD) desarrollado en Angular, siguiendo los principios de Arquitectura Limpia y Clean Code. El objetivo es aplicar buenas prácticas de desarrollo para garantizar un código mantenible, escalable y legible.
-
-Este proyecto sigue los principios de Arquitectura Limpia, dividiendo las responsabilidades en capas bien definidas. La estructura es la siguiente:
-
-src/
-│
-├── app/
-│   ├── domain/
-│   │   └── models/
-│   │       └── task.model.ts        # Interfaz que define la estructura de las tareas en el dominio de negocio.
-│   │
-│   ├── services/
-│   │   └── task.service.ts          # Servicio encargado de la lógica de aplicación relacionada con las tareas.
-│   │
-│   ├── task-list/
-│   │   ├── task-list.component.ts   # Componente que gestiona la visualización de la lista de tareas.
-│   │   ├── task-list.component.html # Vista que presenta las tareas al usuario.
-│   │   └── task-list.component.css  # Estilos específicos para el componente de la lista de tareas.
-│   │
-│   └── app.module.ts               # Módulo principal donde se importan y declaran los componentes y servicios.
-│
-├── assets/                         
-│
-├── environments/                   
-│
-├── index.html                      
-│
-├── main.ts                         
-│
-└── styles.css    
+ 
 
 ## Capas del proyecto
 
@@ -81,3 +53,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Tareas-web
